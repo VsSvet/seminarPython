@@ -9,6 +9,6 @@ basis, indicator = input("Введите основание степени: "), 
 if basis.isdigit() and indicator.isdigit():
     basis, indicator = int(basis), int(indicator)
     result = exponentiation(basis, indicator)
-    print(result)
+    print(f"Число {basis} в степени {indicator} равно {result}")
 else:
     print("Нужно ввести число, а не строку")
